@@ -22,8 +22,8 @@ const HeroSection = () => {
             <a href="#" className="py-3 px-4 mx-4 rounded-md border ">Documentation</a>
         </div>
         <div className="flex mt-10 justify-center space-x-2">
-            <video autoPlay loop muted className="rounded-lg w-2/5 border border-orange-700" src={video1} ></video>
-            <video autoPlay loop muted className="rounded-lg w-2/5 border border-orange-700" src={video2} ></video>
+            <video autoPlay loop muted className="rounded-lg w-1/2 lg:w-2/5 border border-orange-700" src={video1} ></video>
+            <video autoPlay loop muted className="rounded-lg w-1/2 lg:w-2/5 border border-orange-700" src={video2} ></video>
         </div>
       </div>
     </>
